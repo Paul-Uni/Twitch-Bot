@@ -4,7 +4,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
             type: "basic",
             iconUrl: "icon.png",
             title: "Giveaway detected!",
-            message: "A giveaway just started in chat."
+            message: "A giveaway just started in chat." //yesyes mhhmmmm 
         });
     }
 });
