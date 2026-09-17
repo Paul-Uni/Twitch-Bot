@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; width: 250px; padding: 10px; }
+    label { display: block; margin-top: 10px; }
+    input[type="text"], input[type="number"] { width: 100%; }
+  </style>
+</head>
+<body>
+  <label><input type="checkbox" id="autoEnterEnabled"> Auto-enter giveaways</label>
+  <label><input type="checkbox" id="soundEnabled"> Play sound</label>
+
+  <label>Keyword
+    <input type="text" id="giveawayKeyword">
+  </label>
+
+  <label>Entry message
+    <input type="text" id="entryMessage">
+  </label>
+
+  <label>Entries needed
+    <input type="number" id="entriesNeeded">
+  </label>
+
+  <label>Cooldown (seconds)
+    <input type="number" id="msgSendCooldownSeconds">
+  </label>
+
+  <button id="saveBtn">Save</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
